@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Foundations | Topics</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <header class="bg-primary text-white py-4">
+    <div class="container">
+      <h1>HTML Topics</h1>
+      <nav class="nav nav-pills" aria-label="Main navigation">
+        <a class="nav-link text-white" href="index.html">Home</a>
+        <a class="nav-link active" href="topics.html" aria-current="page">Topics</a>
+        <a class="nav-link text-white" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <div class="row g-4">
+      <section class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h2 class="card-title">Core elements</h2>
+            <p>Headings create a clear hierarchy, while paragraphs hold readable text. Formatting elements such as <strong>strong</strong> and <em>emphasis</em> add meaning.</p>
+            <div>
+              <h3>Lists</h3>
+              <ol class="list-group list-group-numbered">
+                <li class="list-group-item">Plan the content</li>
+                <li class="list-group-item">Choose semantic elements</li>
+                <li class="list-group-item">Connect related pages</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h2 class="card-title">Elements in context</h2>
+            <p>This <span class="badge text-bg-secondary">inline span</span> sits inside a paragraph, while a <div class="p-2 bg-light border">div creates a block-level container</div>.</p>
+            <div class="table-responsive">
+              <table class="table table-striped table-bordered">
+                <caption>Examples from this exercise</caption>
+                <thead class="table-primary">
+                  <tr>
+                    <th scope="col">Topic</th>
+                    <th scope="col">Example</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>Links</td><td><a href="contact.html">Move to another page</a></td></tr>
+                  <tr><td>Attributes</td><td><code>href</code>, <code>alt</code>, and <code>lang</code></td></tr>
+                  <tr><td>Head</td><td>Title, metadata, and favicon</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0"><small>Semantic HTML makes content easier to understand.</small></p>
+  </footer>
+</body>
+</html>
